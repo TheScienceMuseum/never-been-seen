@@ -12,6 +12,6 @@ Built using the [Science Museum Group](https://www.sciencemuseumgroup.org.uk)'s 
 
 ## Open source license
 
-[Code](https://github.com/johnstack/first) licensed under the open source [MIT License](https://github.com/johnstack/first/blob/master/LICENSE) with the exception of the SMG Sans font which is copyright The Board of Trustees of the Science Museum. 
+[Code](https://github.com/TheScienceMuseum/never-been-seen/docs/) licensed under the open source [MIT License](https://github.com/TheScienceMuseum/never-been-seen/blob/master/LICENSE) with the exception of the SMG Sans font which is copyright The Board of Trustees of the Science Museum. 
 
-![Screengrab](https://github.com/johnstack/first/blob/master/Screenshot.png)
+![Screengrab](https://github.com/TheScienceMuseum/never-been-seen/blob/master/Screenshot.png)
