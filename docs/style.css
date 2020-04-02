@@ -1,0 +1,121 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Bespoke styles 
+*/
+
+@font-face {
+     font-family: SMGSans;
+     src: url(SMGSans-Regular.woff) format("woff");
+     font-weight: 100;
+     font-style: normal;
+     }
+
+body {
+   	font-family: SMGSans;
+    overflow: hidden;  
+}
+
+	
+	#pix {
+		width: 100%;
+		height: 100%;
+		}
+	
+	#pix img {
+		/* filter: blur(5px) saturate(500%) hue-rotate(-180deg) brightness(105%); */
+		image-rendering: optimizeSpeed;             /*                     */
+		image-rendering: -moz-crisp-edges;          /* Firefox             */
+		image-rendering: -o-crisp-edges;            /* Opera               */
+		image-rendering: -webkit-optimize-contrast; /* Chrome (and Safari) */
+		image-rendering: pixelated;                 /* Chrome as of 2019   */
+		image-rendering: optimize-contrast;         /* CSS3 Proposed       */
+		-ms-interpolation-mode: nearest-neighbor;   /* IE8+                */
+		
+		filter: saturate(400%) hue-rotate(180deg) brightness(150%) contrast(100%);
+		
+		width: 100%;
+		height: 100%;
+		}
+	
+	#title {
+		width: 100%;
+		text-align: left;
+		margin-top:0px;
+		font-size: 1.8em;
+		margin-left: 0;
+		margin-right: 0;
+		border: 3px #000 solid;
+		background: black;
+		color: white;
+		text-transform: uppercase;
+	}
+
+	h1 {	
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+		
+       	
+	#title a, #reload a  {
+		color: white;
+		text-decoration: underline;
+		}	
+
+	#title a:hover, #reload a:hover {
+		}
+	
+@media only screen and (max-width: 700px) {
+
+	#title {
+		font-size: 1.3em;
+		}
+	
