@@ -12,7 +12,7 @@ request.addEventListener('load', function(e) {
 
     
     document.getElementById('title').innerHTML = '<h1>Be the first to see <a href="' + el.links.self + '" target="_blank">object  ' + el.attributes.identifier[0].value + '</a> online or view <a href="index.html">another object</a>.</h1>';
-    document.getElementById('pix').innerHTML = '<a href="' + el.links.self + '" target="_blank"><img src="' + imghost + el.attributes.multimedia[0].processed.small_thumbnail.location + '"></a>';
+    document.getElementById('pix').innerHTML = '<a href="' + el.links.self + '" target="_blank"><img alt="" src="' + imghost + el.attributes.multimedia[0].processed.small_thumbnail.location + '"></a>';
 
   });
 });
