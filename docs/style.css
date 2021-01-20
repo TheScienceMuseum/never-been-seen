@@ -86,6 +86,11 @@ body {
 		height: 100%;
 		}
 	
+	img a {
+	       cursor: -webkit-zoom-in;
+               cursor: zoom-in;
+		}
+
 	#title {
 		width: 100%;
 		text-align: left;
