@@ -86,7 +86,7 @@ body {
 		height: 100%;
 		}
 	
-	img a {
+	img a:hover {
 	       cursor: -webkit-zoom-in;
                cursor: zoom-in;
 		}
