@@ -4,6 +4,8 @@ Between 2019 and 2021 the [Science Museum Group](https://www.sciencemuseumgroup.
 
 **[Launch site](https://thesciencemuseum.github.io/never-been-seen/)**
 
+Never Been Seen was a finalist in  the [2021 GLAMi Awards](https://mw21.museweb.net/glami-award-finalists/).
+
 ## Credits
 
 Thanks to [jamieu](https://github.com/jamieu) for help with the JavaScript :-)
