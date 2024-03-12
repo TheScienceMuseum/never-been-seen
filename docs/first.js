@@ -1,5 +1,5 @@
 var request = new XMLHttpRequest();
-var imghost = 'https://s3-eu-west-1.amazonaws.com/smgco-images/images/';
+var imghost = 'https://coimages.sciencemuseumgroup.org.uk/';
 var pageprefix = 'https://collection.sciencemuseumgroup.org.uk/objects/';
 
 request.addEventListener('load', function(e) {
