@@ -8,9 +8,9 @@ request.addEventListener('load', function(e) {
 
   identifier = el._source.identifier[0].value
   pageurl = pageprefix + el._id; 
-  imgurl = imghost + el._source.multimedia[0].processed.small_thumbnail.location;
+  imgurl = imghost + el._source.multimedia[0]['@processed'].small_thumbnail.location;
 
-  document.getElementById('title').innerHTML = '<h1>Be the first to see <a href="' + pageurl + '" target="_blank">object  ' + identifier + '</a> online or view <a href="index.html">another object</a>.</h1>';
+  document.getElementById('title').innerHTML = '<h1>Be the first to see <a href="' + pageurl + '" target="_blank">object  ' + identifier.value + '</a> online or view <a href="index.html">another object</a>.</h1>';
   document.getElementById('pix').innerHTML = '<a href="' + pageurl + '" target="_blank"><img alt="" src="' + imgurl + '"></a>';
 });
 
